@@ -29,12 +29,7 @@ class TicTacToe
   end
   
   def move(input_to_index, token = "X")
-    if token == "X"
-      puts 1
-    elsif token == "O"
-      puts 5
-    end
-    
+
   end
   
 end
