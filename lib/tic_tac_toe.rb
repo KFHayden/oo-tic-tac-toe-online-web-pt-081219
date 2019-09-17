@@ -24,7 +24,7 @@ class TicTacToe
   end
   
   def input_to_index(input)
-    input.to_i = n
+    n = input.to_i
     
     #we want to make the integer = n-1 to become the index... but how
   end
