@@ -46,7 +46,7 @@ class TicTacToe
       if index == "X" || index == "O"
         turns += 1
       end
-    end
+    end.count
   end
   
 end
