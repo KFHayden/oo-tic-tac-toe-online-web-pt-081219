@@ -33,6 +33,11 @@ class TicTacToe
   end
   
   def position_taken?(move)
+    if token == "X" || "O"
+      true
+    else
+      false
+    end
   end
   
 end
