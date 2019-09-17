@@ -28,7 +28,7 @@ class TicTacToe
     user_input - 1
   end
   
-  def move("X", "O")
+  def move
     
   end
   
