@@ -63,7 +63,7 @@ class TicTacToe
   
   def won?
     WIN_COMBINATIONS.detect do |win_combo|
-      if @board[win_combo[0]]
+      if @board[win_combo[0]] == "X"
   end
   
   def full?
