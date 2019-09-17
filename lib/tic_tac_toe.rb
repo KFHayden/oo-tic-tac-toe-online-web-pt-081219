@@ -102,7 +102,8 @@ class TicTacToe
     over?
       puts "Congratulations #{winner}!"
     draw?
-      puts "Cat's game!"
+      prints "Cat's game!"
+      
   end
   
 end
