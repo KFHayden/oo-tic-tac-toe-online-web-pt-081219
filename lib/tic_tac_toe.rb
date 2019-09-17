@@ -99,7 +99,7 @@ class TicTacToe
     until over? || draw?
       turn
     end
-    over?
+    if over?
       puts "Congratulations #{winner}!"
     draw?
       puts "Cat's game!"
