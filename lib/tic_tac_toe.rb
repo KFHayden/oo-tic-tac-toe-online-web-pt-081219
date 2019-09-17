@@ -57,7 +57,7 @@ class TicTacToe
       move(index, token)
       display_board
     else
-      puts "Input another position"
+      turn
     end
   end
   
