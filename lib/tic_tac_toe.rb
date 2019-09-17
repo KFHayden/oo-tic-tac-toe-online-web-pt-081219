@@ -101,7 +101,7 @@ class TicTacToe
     end
     over?
       puts "Congratulations #{winner}!"
-    end
+
   end
   
 end
