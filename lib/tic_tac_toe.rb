@@ -28,7 +28,7 @@ class TicTacToe
     user_input - 1
   end
   
-  def move(display_board, token)
+  def move(display_board, token = "X")
     token = "X" || "O"
     
   end
