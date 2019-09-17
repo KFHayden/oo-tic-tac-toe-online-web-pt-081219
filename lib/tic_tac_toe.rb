@@ -50,6 +50,7 @@ class TicTacToe
   
   def turn
     puts "Input position 1-9"
+    
   end
   
 end
