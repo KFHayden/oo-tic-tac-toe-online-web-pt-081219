@@ -29,7 +29,11 @@ class TicTacToe
   end
   
   def move(display_board, token = "X")
-    token == "X" || "O"
+    if token == "X"
+      puts 1
+    elsif token == "O"
+      puts 5
+    end
     
   end
   
