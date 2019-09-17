@@ -28,7 +28,7 @@ class TicTacToe
     user_input - 1
   end
   
-  def move(display_board, token = "X")
+  def move(input_to_index, token = "X")
     if token == "X"
       puts 1
     elsif token == "O"
