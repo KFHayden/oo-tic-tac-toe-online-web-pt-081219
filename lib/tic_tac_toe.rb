@@ -99,7 +99,10 @@ class TicTacToe
     if over? == false
       turn
     end
-    
+    if won?
+      puts "Congratulations!"
+    elsif draw?
+      puts "Cats game!"
   end
   
 end
