@@ -4,6 +4,6 @@ class TicTacToe
     @board = Array.new(9, " ")
   end
   
-  WIN_COMBINATIONS
+  WIN_COMBINATIONS = {}
   
 end
