@@ -78,6 +78,7 @@ class TicTacToe
       return win_combo
     end
   end
+  end
   
   def full?
     @board.all? {|i| i == "X" || i == "O"}
