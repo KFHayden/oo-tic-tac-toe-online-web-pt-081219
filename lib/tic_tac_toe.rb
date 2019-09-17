@@ -53,7 +53,7 @@ class TicTacToe
     input = gets
     index = input_to_index(input)
     token = current_player
-    if index
+    if 
   end
   
 end
