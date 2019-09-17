@@ -29,7 +29,7 @@ class TicTacToe
   end
   
   def move(display_board, token = "X")
-    token = "X" || "O"
+ 
     
   end
   
