@@ -29,7 +29,7 @@ class TicTacToe
   end
   
   def move(input_to_index, token = "X")
-    token = "X" || "O"
+    @board[user_input]
   end
   
 end
