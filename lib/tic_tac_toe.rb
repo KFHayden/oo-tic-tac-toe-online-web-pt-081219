@@ -33,7 +33,7 @@ class TicTacToe
   end
   
   def position_taken?(move)
-    if token == "X" || "O"
+    if @board == "X" || "O"
       true
     else
       false
