@@ -77,14 +77,8 @@ class TicTacToe
   end
   
   def draw?
-    if @board.count == 9 && won? == false
-      return true
-    elsif
-      won? == true
-      return false
-    elsif
-      @board.count < 9
-      return false
+    if won? == false && full? == true
+      return turn
     end
   end
   
