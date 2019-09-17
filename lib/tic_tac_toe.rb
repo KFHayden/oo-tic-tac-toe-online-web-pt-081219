@@ -36,7 +36,7 @@ class TicTacToe
     (@board[index] == "X") || (@board[index] == "O")
   end
   
-  def valid_move?(move)
+  def valid_move?(index)
     
   end
 end
