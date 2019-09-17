@@ -52,7 +52,7 @@ class TicTacToe
     puts "Input position 1-9"
     input = gets
     index = input_to_index(input)
-   
+    token = current_player
     if valid_move?(index)
       move(index, token)
       display_board
