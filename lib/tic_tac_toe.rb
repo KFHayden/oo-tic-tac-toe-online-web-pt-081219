@@ -86,7 +86,11 @@ class TicTacToe
   end
   
   def winner
-    
+    if x_wins
+      return "X"
+    elsif o_wins
+      return "O"
+    end
   end
   
 end
